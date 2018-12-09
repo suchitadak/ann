@@ -9,3 +9,15 @@ patterns which are far too complex or numerous for a human programmer to extract
 the machine to recognize.
 
 Steps in ANN:
+
+step 1 : Randomly initialize the weight to small number close to 0 (but not 0)
+
+step 2: Input the first observation of your dataset in the input layer, each feature is one input node
+
+step 3: Forward Propagation
+
+step 4: Compare the result and measure generated error
+
+step 5: Back Propagation
+
+step 6: find the model which create minimum error
